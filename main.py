@@ -6,8 +6,14 @@ class Node:
         self.next = next 
 
 def is_palindrome(head):
-    # Write your solution here!
-    pass
+    values = []
+    current = head
+
+    while current is not None: 
+        vals.append(current.value)
+        current = current.next
+
+    return vals == list(reversed(vals))
 
 
 # 5->4->2
